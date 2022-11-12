@@ -1,0 +1,10 @@
+<?
+	echo("<select name='sel1'>");//콤보박스 html 대신 작성
+	for($i=1;$i<$n_idname;$i++){
+	for($sel1==$i){
+		echo("<option value='$i' selected>$a_idname[$i]</option>");
+	else
+		echo("<option value='$i'>$a_idname[$i]</option>");
+	}
+	echo("</select>");
+?>
